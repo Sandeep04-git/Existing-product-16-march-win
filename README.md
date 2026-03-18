@@ -4,8 +4,19 @@ A minimal Node.js HTTP server that responds with "Hello, World!" to every incomi
 
 > **Package description** (from `package.json`): *"Hello world in Node.js"*
 
-![Node.js](https://img.shields.io/badge/Node.js-v14%2B-339933?logo=node.js&logoColor=white)
+![Node.js](https://img.shields.io/badge/Node.js-v18%2B-339933?logo=node.js&logoColor=white)
 ![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)
+
+### Package Metadata
+
+| Field | Value |
+|-------|-------|
+| **npm Package Name** | `hello_world` |
+| **Version** | `1.0.0` |
+| **Author** | `hxu` |
+| **License** | MIT |
+
+> *Source: `package.json`*
 
 ---
 
@@ -25,7 +36,7 @@ A minimal Node.js HTTP server that responds with "Hello, World!" to every incomi
 
 ## Prerequisites
 
-- **Node.js** version 14 or higher is recommended. You can verify your installed version with:
+- **Node.js** version 18 or higher is recommended. You can verify your installed version with:
 
   ```bash
   node --version
@@ -97,7 +108,7 @@ The server responds **identically** to all HTTP methods (`GET`, `POST`, `PUT`, `
 | **Response Header** | `Content-Type: text/plain` |
 | **Response Body** | `Hello, World!\n` |
 
-*Source: `server.js` lines 6–10 — the request handler callback.*
+*Source: `server.js` lines 37–44 — the request handler callback.*
 
 ### Example Usage
 
@@ -211,6 +222,12 @@ This repository has a flat structure with all files at the root level:
 | `LoginTest - Copy.java` | Duplicate copy of `LoginTest.java` |
 | `industry.csv` | CSV file with industry category data |
 | `industry - Copy.csv` | Duplicate copy of `industry.csv` |
+| `100Pages.pdf` | PDF document (100-page sample file) |
+| `100Pages - Copy.pdf` | Duplicate copy of `100Pages.pdf` |
+| `demo.jpg` | JPEG image file (demo image) |
+| `demo - Copy.jpg` | Duplicate copy of `demo.jpg` |
+| `sample.doc` | Word document (sample file) |
+| `sample - Copy.doc` | Duplicate copy of `sample.doc` |
 | `.blitzyignore.txt` | Blitzy ignore patterns (empty) |
 | `test.blitzyignore.txt` | Test Blitzy ignore file (empty) |
 | `test1.blitzyignore.txt` | Test Blitzy ignore file (empty) |
@@ -230,7 +247,7 @@ The server configuration is defined via constants in `server.js`:
 
 > **Note:** These values are hardcoded. To change them, edit `server.js` directly. See [Production Considerations](#production-considerations) for guidance on using environment variables.
 
-*Source: `server.js` lines 3–4.*
+*Source: `server.js` lines 21 and 28.*
 
 ---
 
