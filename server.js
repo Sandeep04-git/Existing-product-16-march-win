@@ -2,7 +2,7 @@
  * @fileOverview A minimal Node.js HTTP server that listens on localhost and responds
  * to all incoming requests with a plain-text 'Hello, World!' greeting.
  * @module server
- * @requires http Node.js built-in HTTP module
+ * @requires module:http
  * @author hxu
  * @version 1.0.0
  * @license MIT
