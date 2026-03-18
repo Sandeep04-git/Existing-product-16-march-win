@@ -7,7 +7,7 @@ A minimal Node.js HTTP server that responds with "Hello, World!" to every incomi
 ![Node.js](https://img.shields.io/badge/Node.js-v18%2B-339933?logo=node.js&logoColor=white)
 ![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)
 
-### Package Metadata
+## Package Metadata
 
 | Field | Value |
 |-------|-------|
